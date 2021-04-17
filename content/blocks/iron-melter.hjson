@@ -1,0 +1,26 @@
+type: GenericSmelter
+name: Плавильня железа
+description: ...
+liquidCapacity: 100
+size: 2
+hasLiquids: true
+hasItems: true
+craftTime: 30
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+    items: [
+      iron/2
+      coal/1
+    ]
+  }
+}
+requirements: [
+  copper/50
+  iron/50
+]
+category: crafting
+research: mechanical-drill
+idleSound: respawning
+idleSoundVolume: 0.5
+outputLiquid: molten-iron/1

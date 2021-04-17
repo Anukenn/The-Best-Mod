@@ -1,0 +1,6 @@
+name: Расплавленное железо
+description: ...
+temperature: 0.9
+viscosity: 0.8
+effect: melting
+color: da723c

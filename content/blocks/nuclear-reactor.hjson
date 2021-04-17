@@ -1,0 +1,23 @@
+type: SingleTypeGenerator
+name: Ядерный реактор
+description: ...
+size: 4
+hasPower: true
+hasItems: true
+itemDuration: 30
+powerProduction: 10000
+consumes: {
+  items: {
+    items: [
+      uranium/1
+    ]
+    optional: true
+  }
+}
+requirements: [
+  silicon/120
+  iron/600
+  lead/400
+]
+category: power
+research: mechanical-drill
